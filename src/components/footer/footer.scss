@@ -1,0 +1,85 @@
+@use '../../styles/mixin.scss' as *;
+
+.footer-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #111;
+  color: #fff;
+
+  .footer {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 36px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 48px;
+      .footer-logo {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 150px;
+        border-radius: 12px;
+        img {
+          width: 100%;
+          border-radius: 12px;
+
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .footer-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        h3 {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 8px;
+        }
+
+        p {
+          font-size: 16px;
+          a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+
+            &:hover {
+              color: #00aaff;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #333;
+      text-align: center;
+      font-size: 14px;
+      padding-top: 36px;
+      color: #aaa;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-wrapper .footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+
+    .footer-contact {
+      align-items: center;
+    }
+  }
+}

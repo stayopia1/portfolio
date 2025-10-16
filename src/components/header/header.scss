@@ -1,0 +1,129 @@
+@use '../../styles/mixin.scss' as *;
+
+.header-wrapper {
+  width: 100%;
+  padding: 8px 48px;
+  background-color: $white;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  .header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    .logo {
+      width: 80px;
+      @include flex();
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.bottom-header-wrapper {
+  width: 100%;
+  padding: 8px 48px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+  top: 86.3px;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.1);
+  .bottom-header {
+    width: 100%;
+    background-color: transparent;
+    padding: 12px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .navbar {
+      @include flex();
+      gap: 14px;
+      .nav-link {
+        will-change: contents;
+        background-color: transparent;
+        outline: none;
+        padding: 5px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        transition: 200ms ease;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        p {
+          position: relative;
+          z-index: 1;
+          color: $textColor;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: normal;
+          letter-spacing: -0.1px;
+        }
+        .flag {
+          opacity: 0;
+          pointer-events: none;
+          min-width: 10px;
+          width: 10px;
+          min-height: 10px;
+          height: 10px;
+          border-radius: 100%;
+          background-color: white;
+          z-index: 1;
+          transition: 300ms ease;
+        }
+        &::after {
+          content: '';
+          width: 0;
+          position: absolute;
+          z-index: 0;
+          left: 0;
+          top: 100%;
+          height: 2px;
+          transition: 450ms ease;
+          background-color: $textColor;
+        }
+        &:hover {
+          p {
+            color: black;
+          }
+          &::after {
+            width: 100%;
+          }
+        }
+        &:active {
+          transform: scale(0.98);
+        }
+        &.active {
+          cursor: default;
+          background-color: black;
+          gap: 8px;
+          p {
+            color: white;
+          }
+          &::after {
+            pointer-events: none;
+            opacity: 0;
+          }
+          .flag {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .button-component {
+      position: absolute;
+      right: 48px;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+$backgroundColor: #f6f6f6;
+$white: #ffffff;
+$buttonColor: mediumslateblue;
+$textColor: rgb(49, 49, 52);
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexcol {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@mixin ButtonUI {
+  .button-component,
+  .button-component-reverse {
+    will-change: contents;
+    cursor: pointer;
+    transition: 200ms ease;
+    background-color: black;
+    @include flex();
+    gap: 12px;
+    padding: 6px 12px;
+    position: relative;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    p {
+      color: $white;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: capitalize;
+      letter-spacing: -0.1px;
+      position: relative;
+      z-index: 1;
+      transition: 350ms ease;
+    }
+    .icon {
+      position: relative;
+      z-index: 1;
+      transition: 350ms ease;
+      color: white;
+    }
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-radius: 12px;
+      transition: 350ms ease;
+      pointer-events: none;
+      z-index: 0;
+    }
+    &:hover {
+      p {
+        color: black;
+      }
+      .icon {
+        color: black;
+      }
+      &::after {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+  .button-component-reverse {
+    border: 1px solid #cecece;
+    background-color: white;
+    p {
+      color: black;
+    }
+    .icon {
+      color: black;
+    }
+    &:hover {
+      p {
+        color: white;
+      }
+      .icon {
+        color: white;
+      }
+      &::after {
+        background-color: black;
+      }
+    }
+  }
+}

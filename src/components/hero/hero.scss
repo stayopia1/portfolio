@@ -1,0 +1,69 @@
+@use '../../styles/mixin.scss' as *;
+
+.hero-wrapper {
+  width: 100%;
+  height: calc(100vh - 86.3px);
+  background-color: $backgroundColor;
+  margin-top: 86.3px;
+  padding: 48px;
+  .hero {
+    width: 100%;
+    height: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    @include flex();
+    flex-direction: column;
+    .texts {
+      @include flex();
+      flex-direction: column;
+      gap: 2px;
+
+      h1 {
+        font-size: 80px;
+        color: $textColor;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: -3px;
+        opacity: 0;
+        transform: scale(0.8);
+        animation: h1Pop 0.8s ease-out forwards;
+      }
+
+      .title-bottom {
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        color: #303030;
+        opacity: 0;
+        transform: translateY(15px);
+        animation: pFadeIn 0.8s ease-out forwards;
+        animation-delay: 0.8s;
+      }
+    }
+
+    @keyframes h1Pop {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes pFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+}

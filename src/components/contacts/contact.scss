@@ -1,0 +1,110 @@
+@use '../../styles/mixin.scss' as *;
+
+.contact-us-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: $backgroundColor;
+
+  .contact-us {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: $backgroundColor;
+    margin-top: 48px;
+    height: auto;
+    padding: 48px;
+
+    .top-title {
+      width: 100%;
+      @include flex();
+      flex-direction: column;
+      gap: 12px;
+
+      p {
+        max-width: 800px;
+        width: 100%;
+        line-height: 1.5;
+        color: $textColor;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+      }
+
+      h2 {
+        color: $textColor;
+        font-size: 36px;
+        line-height: normal;
+        width: 100%;
+        text-align: center;
+        letter-spacing: -0.5px;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+    }
+
+    .contact-form {
+      max-width: 550px;
+      margin: 36px auto auto auto;
+      @include flexcol();
+      width: 100%;
+      gap: 18px;
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        label {
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 8px;
+          color: $textColor;
+        }
+
+        input,
+        textarea {
+          padding: 12px 16px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          font-size: 16px;
+          resize: none;
+          transition: all 0.3s;
+
+          &:focus {
+            outline: none;
+            border-color: black;
+            box-shadow: 0 0 0 2px rgba(black, 0.2);
+          }
+        }
+
+        textarea {
+          font-family: inherit;
+        }
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 16px 32px;
+        background-color: black;
+        color: $white;
+        outline: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin-top: 12px;
+        border: 2px solid transparent;
+
+        &:hover {
+          background-color: darken(white, 10%);
+          color: black;
+          border: 1px solid black;
+        }
+        &:active {
+            transform: scale(0.95);
+        }
+      }
+    }
+  }
+}
