@@ -57,10 +57,11 @@ const Footer: React.FC = () => {
           <div className="footer-contact">
             <h3>{t('footer.contact')}</h3>
             <p>
-              {t('footer.email')}: <a href="mailto:info@company.com">info@company.com</a>
+              {t('footer.email')}:{' '}
+              <a href="mailto:allsales.stayopia@gmail.com">allsales.stayopia@gmail.com</a>
             </p>
             <p>
-              {t('footer.phone')}: <a href="tel:+1234567890">+1 234 567 890</a>
+              {t('footer.phone')}: <a href="tel:+491623326230">+491623326230</a>
             </p>
           </div>
         </div>
