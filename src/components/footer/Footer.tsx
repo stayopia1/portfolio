@@ -1,7 +1,35 @@
 import React from 'react';
 import '../footer/footer.scss';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
+interface Socials {
+  id: number;
+  href: string;
+  icon: string;
+}
+
+const SocialData: Socials[] = [
+  {
+    id: 1,
+    icon: '/Platform=LinkedIn, Color=Negative.svg',
+    href: 'https://www.linkedin.com/stayopia',
+  },
+  {
+    id: 2,
+    icon: '/instagram.svg',
+    href: 'https://www.instagram.com/stayopia',
+  },
+  {
+    id: 3,
+    icon: '/twitter.svg',
+    href: 'https://www.x.com/stayopia',
+  },
+];
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer-wrapper">
       <div className="footer">
@@ -11,20 +39,36 @@ const Footer: React.FC = () => {
             <img src="/stayopia_logo.jpg" alt="Company Logo" />
           </div>
 
+          {/* Socials */}
+          <div className="socials">
+            {SocialData?.map((data: Socials) => (
+              <Link
+                target="_blank"
+                to={data.href ?? '#'}
+                key={data.id}
+                className="social-item"
+              >
+                <img src={data.icon} alt={data.href} />
+              </Link>
+            ))}
+          </div>
+
           {/* Contact */}
           <div className="footer-contact">
-            <h3>Contact Us</h3>
+            <h3>{t('footer.contact')}</h3>
             <p>
-              Email: <a href="mailto:info@company.com">info@company.com</a>
+              {t('footer.email')}: <a href="mailto:info@company.com">info@company.com</a>
             </p>
             <p>
-              Phone: <a href="tel:+1234567890">+1 234 567 890</a>
+              {t('footer.phone')}: <a href="tel:+1234567890">+1 234 567 890</a>
             </p>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Stayopia. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Stayopia. {t('footer.all_rights_reserved')}.
+          </p>
         </div>
       </div>
     </footer>

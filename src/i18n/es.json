@@ -1,0 +1,36 @@
+{
+  "hero_text": "Integra el enfoque de hospitalidad de Stayopia en tu negocio. Te ayudaremos a aumentar la comodidad y reducir gastos mediante tendencias modernas de hospitalidad.",
+  "what_are_we_doing_text": "En PlusPrograms hemos desarrollado un nuevo enfoque de hospitalidad. Creemos que la misión de tu negocio es proporcionar a los huéspedes todas las herramientas para una integración perfecta con tu empresa, ciudad y alrededores. Guía a tus clientes con los productos móviles de Stayopia para beneficio mutuo.",
+  "what_are_we_doing": "¿Qué estamos haciendo?",
+  "learn_more": "Aprender Más",
+  "business_that": "Negocios que <strong>Confiaron en Nosotros</strong>",
+  "video_text": "Todo Está Junto En Un Solo Producto",
+  "services": {
+    "title_one": "Hotel Kainat, Yevlakh, Azerbaiyán",
+    "title_two": "Hotel Barda, Barda, Azerbaiyán",
+    "title_three": "Hotel Moss Art, Bakú, Azerbaiyán",
+    "text_one": "Nuestro negocio comenzó a vender más con Stayopia; para nuestra sorpresa, muchos clientes lo usan para realizar pedidos dentro y fuera del hotel. Nos convertimos en el primer negocio en usar esta tecnología en !!! Lugar, y lo recomendamos a nuestros amigos.",
+    "text_two": "Mi negocio utilizó la tecnología como Stayopia, pero solo para nuestro restaurante y el precio era más alto. Con Stayopia comenzamos a trabajar más fácilmente con clientes del extranjero, especialmente de China. Los empleados también están felices, ya que el rango de comunicación se redirigió en línea. Como beneficio adicional, pudimos ayudar a pequeños negocios locales recomendando a nuestros clientes qué y cómo probar en !!! Nombre del lugar.",
+    "text_three": "No pudimos renovar el !!! Nombre del hotel !!! durante muchos años. Al instalar la tecnología Stayopia sentimos una diferencia en el nivel de satisfacción del cliente. La solución económica en línea nos permitió ahorrar dinero en el propio hotel y motivó a empleados y clientes. ¡Gracias, Stayopia!"
+  },
+  "about": {
+    "title_one": "Incorpora a tu equipo y decora tu perfil",
+    "title_two": "Invita a tus clientes a Stayopia",
+    "title_three": "Integra negocios cercanos y gana comisiones",
+    "title_four": "Comunícate con tus clientes internacionales cómodamente",
+    "title_five": "Gestiona tu negocio de manera conveniente",
+    "title_six": "Conoce mejor a tus clientes"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contáctanos"
+  },
+  "footer": {
+    "contact": "Contáctanos",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "all_rights_reserved": "Todos los derechos reservados"
+  }
+}

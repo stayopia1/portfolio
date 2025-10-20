@@ -1,8 +1,10 @@
 import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
 import { BrowserRouter } from 'react-router-dom';
-import './styles/global.scss';
+import App from './App.tsx';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
+import './styles/responsive.scss';
+import './styles/global.scss';
+import './i18n';
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>

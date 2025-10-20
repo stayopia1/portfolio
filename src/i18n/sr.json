@@ -1,0 +1,36 @@
+{
+  "hero_text": "Integrirajte Stayopia pristup ugostiteljstvu u svoj posao. Pomoći ćemo vam da povećate udobnost i smanjite troškove koristeći moderne trendove u ugostiteljstvu.",
+  "what_are_we_doing_text": "U PlusPrograms smo razvili novi pristup ugostiteljstvu. Verujemo da je misija vašeg poslovanja da gostima pružite sve alate za besprekornu integraciju sa vašim poslom, gradom i okolinom. Usmerite svoje goste pomoću Stayopia mobilnih proizvoda za obostranu korist.",
+  "what_are_we_doing": "Šta radimo?",
+  "learn_more": "Saznaj Više",
+  "business_that": "Poslovanja koja su <strong>Verovala Nama</strong>",
+  "video_text": "Sve Je Zajedno U Jednom Proizvodu",
+  "services": {
+    "title_one": "Hotel Kainat, Yevlakh, Azerbejdžan",
+    "title_two": "Hotel Barda, Barda, Azerbejdžan",
+    "title_three": "Hotel Moss Art, Baku, Azerbejdžan",
+    "text_one": "Naše poslovanje je počelo da prodaje više sa Stayopia; na naše iznenađenje, mnogi klijenti koriste ga za poručivanje unutar i van hotela. Postali smo prvo poslovanje koje koristi ovu tehnologiju u !!! Mesto, i preporučili smo je našim prijateljima.",
+    "text_two": "Moje poslovanje je koristilo tehnologiju poput Stayopia, ali samo za naš restoran i cena je bila viša. Sa Stayopia smo počeli lakše da radimo sa klijentima iz inostranstva, posebno iz Kine. Zaposleni su takođe srećni, jer je komunikacija preusmerena online. Kao dodatnu korist, mogli smo pomoći malim lokalnim preduzećima preporučujući našim klijentima šta i kako da isprobaju u !!! Naziv mesta.",
+    "text_three": "Nismo mogli renovirati !!! Naziv hotela !!! mnogo godina. Instaliranjem Stayopia tehnologije osetili smo razliku u nivou zadovoljstva gostiju. Jeftino online rešenje nam je omogućilo da uštedimo novac na samom hotelu i motivisalo zaposlene i goste. Hvala, Stayopia!"
+  },
+  "about": {
+    "title_one": "Uvedite svoj tim i uredite svoj profil",
+    "title_two": "Pozovite svoje klijente na Stayopia",
+    "title_three": "Integrirajte okolna preduzeća i zaradite proviziju",
+    "title_four": "Komunicirajte sa svojim međunarodnim klijentima lako",
+    "title_five": "Upravljajte svojim poslovanjem jednostavno",
+    "title_six": "Upoznajte bolje svoje klijente"
+  },
+  "navbar": {
+    "home": "Početna",
+    "about": "O Nama",
+    "services": "Usluge",
+    "contact": "Kontaktirajte Nas"
+  },
+  "footer": {
+    "contact": "Kontaktirajte Nas",
+    "email": "Email",
+    "phone": "Telefon",
+    "all_rights_reserved": "Sva prava zadržana"
+  }
+}

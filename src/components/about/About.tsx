@@ -1,54 +1,50 @@
 import React, { useEffect, useRef } from 'react';
 import '../about/about.scss';
 import { Fancybox } from '@fancyapps/ui';
+import { useTranslation } from 'react-i18next';
 
 interface AboutDataInterface {
   id: number;
   title: string;
-  text: string;
   image: string;
 }
 
-const AboutData: AboutDataInterface[] = [
-  {
-    id: 1,
-    title: 'Hotel Management',
-    text: 'Create your own Booking and manage!',
-    image: '/image1.png',
-  },
-  {
-    id: 2,
-    title: 'Hotel Management',
-    text: 'Create your own Booking and manage!',
-    image: '/image2.png',
-  },
-  {
-    id: 3,
-    title: 'Hotel Management',
-    text: 'Create your own Booking and manage!',
-    image: '/image3.png',
-  },
-  {
-    id: 4,
-    title: 'Hotel Management',
-    text: 'Create your own Booking and manage!',
-    image: '/image4.png',
-  },
-  {
-    id: 5,
-    title: 'Hotel Management',
-    text: 'Create your own Booking and manage!',
-    image: '/image5.png',
-  },
-  {
-    id: 6,
-    title: 'Hotel Management',
-    text: 'Create your own Booking and manage!',
-    image: '/image6.png',
-  },
-];
-
 const About: React.FC = () => {
+  const { t } = useTranslation();
+
+  const AboutData: AboutDataInterface[] = [
+    {
+      id: 1,
+      title: t('about.title_one'),
+      image: '/newimage1.png',
+    },
+    {
+      id: 2,
+      title: t('about.title_two'),
+      image: '/newimage2.png',
+    },
+    {
+      id: 3,
+      title: t('about.title_three'),
+      image: '/image3.png',
+    },
+    {
+      id: 4,
+      title: t('about.title_four'),
+      image: '/image4.png',
+    },
+    {
+      id: 5,
+      title: t('about.title_five'),
+      image: '/image5.png',
+    },
+    {
+      id: 6,
+      title: t('about.title_six'),
+      image: '/image6.png',
+    },
+  ];
+
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
@@ -61,7 +57,7 @@ const About: React.FC = () => {
 
     const video = videoRef.current;
     if (video) {
-      video.playbackRate = 2;
+      video.playbackRate = 1.3;
       const playPromise = video.play();
       if (playPromise !== undefined) {
         playPromise.catch(() => {});
@@ -77,11 +73,8 @@ const About: React.FC = () => {
     <section className="about-wrapper" id="about">
       <div className="about">
         <div className="top-title">
-          <h2>What are we doing?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat
-            nesciunt non, numquam rem asperiores nihil quae inventore pariatur minima?
-          </p>
+          <h2>{t('what_are_we_doing')}</h2>
+          <p>{t('what_are_we_doing_text')}</p>
         </div>
 
         <div className="grid-data">
@@ -89,7 +82,6 @@ const About: React.FC = () => {
             <div key={data.id} className="about-item">
               <div className="top-texts">
                 <h3>{data.title}</h3>
-                <p>{data.text}</p>
               </div>
               <div className="image-container">
                 <a
@@ -104,18 +96,24 @@ const About: React.FC = () => {
           ))}
         </div>
 
-        <div className="video-container">
-          <video
-            ref={videoRef}
-            src="/video.mp4"
-            muted
-            loop
-            autoPlay
-            playsInline
-            preload="auto"
-            controls={false}
-            style={{ width: '100%', display: 'block', objectFit: 'cover' }}
-          />
+        {/* video section */}
+        <div className="video-section">
+          <div className="top-title">
+            <h2>{t('video_text')}</h2>
+          </div>
+          <div className="video-container">
+            <video
+              ref={videoRef}
+              src="/video2.mp4"
+              muted
+              loop
+              autoPlay
+              playsInline
+              preload="auto"
+              controls={false}
+              style={{ width: '100%', display: 'block', objectFit: 'cover' }}
+            />
+          </div>
         </div>
       </div>
     </section>

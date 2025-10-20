@@ -1,0 +1,105 @@
+@use './mixin.scss' as *;
+
+@media only screen and (max-width: 1250px) {
+  .hero-wrapper {
+    padding: 36px;
+  }
+  .about-wrapper .about {
+    padding: 24px;
+    margin-top: 36px;
+  }
+  .about-wrapper .about .grid-data {
+    margin-top: 36px;
+  }
+  .about-wrapper .about .video-section {
+    margin-top: 36px;
+  }
+  .services-wrapper .services {
+    margin-top: 36px;
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .about-wrapper .about .grid-data {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-wrapper .hero .texts h1 {
+    font-size: 50px;
+  }
+  .about-wrapper .about .top-title h2 {
+    font-size: 21px;
+  }
+  .services-wrapper .services .top-title .top-title-h {
+    * {
+      font-size: 21px;
+    }
+    .star {
+      font-size: 24px;
+    }
+  }
+  .services-wrapper .services .grid-data .swiper .swiper-slide .top-texts h3 {
+    font-size: 18px;
+  }
+  .services-wrapper .services .grid-data .swiper .swiper-slide .top-texts p {
+    font-size: 15px;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .header-wrapper .header .logo {
+    width: 70px;
+  }
+  .bottom-header-wrapper {
+    top: 77px;
+  }
+  .header-wrapper .header .language-select-wrapper .language-dropdown {
+    font-size: 16px;
+  }
+  .header-wrapper .header .language-select-wrapper .language-flag {
+    min-width: 21px;
+    width: 21px;
+    height: 21px;
+    min-height: 21px;
+  }
+  .header-wrapper .header .language-select-wrapper .language-dropdown {
+    right: 36px;
+  }
+  .bottom-header-wrapper .bottom-header .navbar .nav-link p {
+    font-size: 14px;
+    text-wrap: nowrap;
+  }
+  .bottom-header-wrapper .bottom-header .navbar .nav-link {
+    padding: 8px 12px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .footer-wrapper .footer .footer-content .footer-logo {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .about-wrapper .about .top-title p {
+    padding: 0 12px;
+    font-size: 16px;
+  }
+  .header-wrapper .header {
+    justify-content: flex-start;
+  }
+  .bottom-header-wrapper {
+    padding: 8px 24px;
+  }
+  .bottom-header-wrapper .bottom-header .navbar .nav-link {
+    padding: 8px 8px;
+  }
+  .bottom-header-wrapper .bottom-header .navbar .nav-link p {
+    font-size: 13px;
+  }
+  .footer-wrapper .footer .footer-content .footer-contact h3 {
+    font-size: 18px;
+  }
+  .footer-wrapper .footer {
+    padding: 60px 24px;
+  }
+}

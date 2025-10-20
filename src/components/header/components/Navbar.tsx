@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface NavInterface {
   id: number;
@@ -6,14 +7,16 @@ interface NavInterface {
   href: string;
 }
 
-const NavbarElements: NavInterface[] = [
-  { id: 1, title: 'Home', href: 'home' },
-  { id: 2, title: 'About Us', href: 'about' },
-  { id: 3, title: 'Services', href: 'services' },
-  { id: 4, title: 'Contact Us', href: 'contact' },
-];
-
 const Navbar: React.FC = () => {
+  const { t } = useTranslation();
+
+  const NavbarElements: NavInterface[] = [
+    { id: 1, title: t('navbar.home'), href: 'home' },
+    { id: 2, title: t('navbar.about'), href: 'about' },
+    { id: 3, title: t('navbar.services'), href: 'services' },
+    // { id: 4, title: t("navbar.contact"), href: 'contact' },
+  ];
+
   const [activeSection, setActiveSection] = useState<string>('home');
 
   const handleScrollTo = (id: string) => {
@@ -35,7 +38,7 @@ const Navbar: React.FC = () => {
         });
       },
       {
-        rootMargin: '-50% 0px -50% 0px', 
+        rootMargin: '-50% 0px -50% 0px',
         threshold: 0,
       },
     );
