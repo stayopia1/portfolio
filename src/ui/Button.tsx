@@ -5,16 +5,33 @@ interface ButtonProps {
   styles?: React.CSSProperties;
   title: string;
   reverse?: boolean;
+  onClickFunc?: (v?: any) => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ icon, title, styles, reverse = false }) => {
+const Button: React.FC<ButtonProps> = ({
+  icon,
+  title,
+  styles,
+  reverse = false,
+  onClickFunc,
+}) => {
   return reverse ? (
-    <button type="button" className="button-component-reverse" style={styles}>
+    <button
+      onClick={() => (onClickFunc ? onClickFunc() : {})}
+      type="button"
+      className="button-component-reverse"
+      style={styles}
+    >
       {icon && icon}
       <p>{title}</p>
     </button>
   ) : (
-    <button type="button" className="button-component" style={styles}>
+    <button
+      onClick={() => (onClickFunc ? onClickFunc() : {})}
+      type="button"
+      className="button-component"
+      style={styles}
+    >
       {icon && icon}
       <p>{title}</p>
     </button>

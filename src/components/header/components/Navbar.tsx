@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useHandleScroll } from './useHandleScroll';
 
 interface NavInterface {
   id: number;
@@ -9,6 +10,7 @@ interface NavInterface {
 
 const Navbar: React.FC = () => {
   const { t } = useTranslation();
+  const { activeSection, handleScrollTo } = useHandleScroll();
 
   const NavbarElements: NavInterface[] = [
     { id: 1, title: t('navbar.home'), href: 'home' },
@@ -16,36 +18,6 @@ const Navbar: React.FC = () => {
     { id: 3, title: t('navbar.services'), href: 'services' },
     // { id: 4, title: t("navbar.contact"), href: 'contact' },
   ];
-
-  const [activeSection, setActiveSection] = useState<string>('home');
-
-  const handleScrollTo = (id: string) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      setActiveSection(id);
-    }
-  };
-
-  useEffect(() => {
-    const sections = document.querySelectorAll('section[id]');
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
-      },
-      {
-        rootMargin: '-50% 0px -50% 0px',
-        threshold: 0,
-      },
-    );
-
-    sections.forEach(sec => observer.observe(sec));
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <nav className="navbar">

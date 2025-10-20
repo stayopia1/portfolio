@@ -13,17 +13,17 @@ const SocialData: Socials[] = [
   {
     id: 1,
     icon: '/Platform=LinkedIn, Color=Negative.svg',
-    href: 'https://www.linkedin.com/stayopia',
+    href: 'https://www.linkedin.com/company/stayopia',
   },
   {
     id: 2,
     icon: '/instagram.svg',
-    href: 'https://www.instagram.com/stayopia',
+    href: 'https://www.instagram.com/stayopia_/',
   },
   {
     id: 3,
     icon: '/twitter.svg',
-    href: 'https://www.x.com/stayopia',
+    href: 'https://x.com/Stayopia_',
   },
 ];
 
