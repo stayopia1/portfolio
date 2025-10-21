@@ -6,6 +6,7 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import { MdHotelClass } from 'react-icons/md';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import i18n from '../../i18n';
 
 interface DataInterface {
   id: number;
@@ -15,6 +16,7 @@ interface DataInterface {
 
 const Services: React.FC = () => {
   const { t } = useTranslation();
+  const lang = i18n.language;
 
   const Data: DataInterface[] = [
     {
@@ -95,7 +97,9 @@ const Services: React.FC = () => {
               <SwiperSlide key={data.id}>
                 <div className="top-texts">
                   <h3>{data.title}</h3>
-                  <p>{data.description}</p>
+                  <p style={{ textTransform: lang === 'sr' ? 'unset' : 'capitalize' }}>
+                    {data.description}
+                  </p>
                 </div>
               </SwiperSlide>
             ))}
