@@ -74,9 +74,9 @@ const Services: React.FC = () => {
             loop
             spaceBetween={24}
             modules={[Autoplay]}
-            speed={2000}
+            speed={3800}
             autoplay={{
-              delay: 1500,
+              delay: 2000,
               pauseOnMouseEnter: false,
             }}
             breakpoints={{
