@@ -15,3 +15,26 @@ body,
   background-color: #f6f6f6;
   @include ButtonUI();
 }
+
+.termly-display-preferences {
+  color: #cecece;
+  text-decoration: none;
+  transition: 200ms ease;
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: transparent;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  &:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}
