@@ -12,6 +12,7 @@ const Langs: LangType[] = [
   { id: 1, val: 'en', flag: '/england.svg' },
   { id: 2, val: 'es', flag: '/spain.svg' },
   { id: 3, val: 'sr', flag: '/serbia.svg' },
+  { id: 4, val: 'az', flag: '/azerbaijan.svg' },
 ];
 
 const Header: React.FC = () => {

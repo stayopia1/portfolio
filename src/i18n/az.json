@@ -1,0 +1,37 @@
+{
+  "hero_text": "Stayopia Qonaqpərvərlik Yanaşmasını biznesinizə inteqrasiya edin. Müasir qonaqpərvərlik trendləri ilə rahatlığı artırmağa və xərcləri azaltmağa kömək edəcəyik.",
+  "what_are_we_doing_text": "PlusPrograms-da biz Qonaqpərvərlik üçün yeni bir yanaşma inkişaf etdirdik. Biz inanırıq ki, biznesinizin missiyası qonaqlara biznesiniz, şəhəriniz və ətrafınızla problemsiz inteqrasiya üçün bütün vasitələri təqdim etməkdir. Stayopia mobil məhsulları ilə qonaqlarınızı yönləndirin və qarşılıqlı fayda əldə edin.",
+  "what_are_we_doing": "Biz nə edirik?",
+  "learn_more": "Ətraflı öyrən",
+  "business_that": "Bizimlə <strong>Etibar Qazanmış</strong> Bizneslər",
+  "video_text": "Bütün bunlar bir məhsulda birləşib",
+  "services": {
+    "title_one": "Kainat Hotel, Yevlax, Azərbaycan",
+    "title_two": "Barda Hotel, Bərdə, Azərbaycan",
+    "title_three": "Moss Art Hotel, Bakı, Azərbaycan",
+    "text_one": "Biznesimiz Stayopia ilə daha çox satış etmək üçün başladı və təəccübümüzə görə, bir çox müştəri onu otel daxilində və xaricində sifariş vermək üçün istifadə edir. Biz bu texnologiyanı !!! Place-də istifadə edən ilk biznes olduq və dostlarımıza da tövsiyə etdik.",
+    "text_two": "Bizim biznes Stayopia kimi texnologiyadan istifadə edirdi, amma yalnız restoranımız üçün idi və qiymət daha yüksək idi. Stayopia ilə xaricdən, xüsusilə Çindən gələn müştərilərlə daha asan işləməyə başladıq. İşçilər də məmnundurlar, çünki ünsiyyət dairəsi onlayn yönləndirildi. Əlavə fayda olaraq, müştərilərimizə !!! Place-də nəyi və necə sınamağı tövsiyə edərək kiçik yerli bizneslərə kömək edə bildik.",
+    "text_three": "Biz illərlə !!! Name of the hotel !!! otelini yeniləyə bilmirdik. Stayopia texnologiyasını quraşdırdıqdan sonra müştəri məmnuniyyəti səviyyəsində fərqi hiss etdik. Ucuz onlayn həll otelin özündə pul qənaət etməyə imkan verdi və işçiləri və müştəriləri motivasiya etdi. Təşəkkürlər, Stayopia!"
+  },
+  "about": {
+    "title_one": "Komandanızı əlavə edin və profilinizi bəzəyin",
+    "title_two": "Müştərilərinizi Stayopia-ya dəvət edin",
+    "title_three": "Ətrafdakı biznesləri inteqrasiya edin və komissiya qazanın",
+    "title_four": "Beynəlxalq müştərilərinizlə rahat ünsiyyət qurun",
+    "title_five": "Biznesinizi rahat idarə edin",
+    "title_six": "Müştərilərinizi daha yaxşı tanıyın"
+  },
+  "navbar": {
+    "home": "Əsas Səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "contact": "Bizimlə Əlaqə"
+  },
+  "footer": {
+    "contact": "Bizimlə Əlaqə",
+    "email": "Email",
+    "phone": "Telefon",
+    "all_rights_reserved": "Bütün hüquqlar qorunur",
+    "consent_preferences": "Razılıq Seçimləri"
+  }
+}
