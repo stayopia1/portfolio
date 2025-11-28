@@ -58,7 +58,9 @@ const Footer: React.FC = () => {
             <h3>{t('footer.contact')}</h3>
             <p>
               {t('footer.email')}:{' '}
-              <a href="mailto:allsales.stayopia@gmail.com">allsales.stayopia@gmail.com</a>
+              <a href="mailto:allmanagement.stayopia@gmail.com">
+                allmanagement.stayopia@gmail.com
+              </a>
             </p>
             <p>
               {t('footer.phone')}: <a href="tel:+491623326230">+491623326230</a>
