@@ -13,6 +13,13 @@ const Langs: LangType[] = [
   { id: 2, val: 'es', flag: '/spain.svg' },
   { id: 3, val: 'sr', flag: '/serbia.svg' },
   { id: 4, val: 'az', flag: '/azerbaijan.svg' },
+  { id: 5, val: 'ar', flag: '/united-arab-emirates.svg' },
+  { id: 6, val: 'ch', flag: '/china.svg' },
+  { id: 7, val: 'de', flag: '/germany.svg' },
+  { id: 8, val: 'fa', flag: '/iran.svg' },
+  { id: 9, val: 'kk', flag: '/kazakhstan.svg' },
+  { id: 10, val: 'ru', flag: '/russia.svg' },
+  { id: 11, val: 'tr', flag: '/turkey.svg' },
 ];
 
 const Header: React.FC = () => {
@@ -34,11 +41,7 @@ const Header: React.FC = () => {
         <Logo />
         <div className="language-select-wrapper">
           <img src={selectedFlag} alt="flag" className="language-flag" />
-          <select
-            value={i18n.language}
-            onChange={handleChangeLanguage}
-            className="language-dropdown"
-          >
+          <select value={i18n.language} onChange={handleChangeLanguage} className="language-dropdown">
             {Langs.map(l => (
               <option key={l.id} value={l.val}>
                 {l.val.toUpperCase()}
