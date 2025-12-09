@@ -42,12 +42,7 @@ const Footer: React.FC = () => {
           {/* Socials */}
           <div className="socials">
             {SocialData?.map((data: Socials) => (
-              <Link
-                target="_blank"
-                to={data.href ?? '#'}
-                key={data.id}
-                className="social-item"
-              >
+              <Link target="_blank" to={data.href ?? '#'} key={data.id} className="social-item">
                 <img src={data.icon} alt={data.href} />
               </Link>
             ))}
@@ -57,10 +52,7 @@ const Footer: React.FC = () => {
           <div className="footer-contact">
             <h3>{t('footer.contact')}</h3>
             <p>
-              {t('footer.email')}:{' '}
-              <a href="mailto:allmanagement.stayopia@gmail.com">
-                allmanagement.stayopia@gmail.com
-              </a>
+              {t('footer.email')}: <a href="mailto:sales@stayopia.com">sales@stayopia.com</a>
             </p>
             <p>
               {t('footer.phone')}: <a href="tel:+491623326230">+491623326230</a>
