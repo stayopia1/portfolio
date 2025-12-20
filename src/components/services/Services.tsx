@@ -40,6 +40,27 @@ const Data: DataInterface[] = [
       title: t('services.title_three'),
     }),
   },
+    {
+    id: 4,
+    title: t('services.title_one'),
+    description: t('services.text_one', {
+      title: t('services.title_one'),
+    }),
+  },
+  {
+    id: 5,
+    title: t('services.title_two'),
+    description: t('services.text_two', {
+      title: t('services.title_two'),
+    }),
+  },
+  {
+    id: 6,
+    title: t('services.title_three'),
+    description: t('services.text_three', {
+      title: t('services.title_three'),
+    }),
+  },
 ];
 
 
