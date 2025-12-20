@@ -18,38 +18,30 @@ const Services: React.FC = () => {
   const { t } = useTranslation();
   const lang = i18n.language;
 
-  const Data: DataInterface[] = [
-    {
-      id: 1,
+const Data: DataInterface[] = [
+  {
+    id: 1,
+    title: t('services.title_one'),
+    description: t('services.text_one', {
       title: t('services.title_one'),
-      description: t('services.text_one'),
-    },
-    {
-      id: 2,
+    }),
+  },
+  {
+    id: 2,
+    title: t('services.title_two'),
+    description: t('services.text_two', {
       title: t('services.title_two'),
-      description: t('services.text_two'),
-    },
-    {
-      id: 3,
+    }),
+  },
+  {
+    id: 3,
+    title: t('services.title_three'),
+    description: t('services.text_three', {
       title: t('services.title_three'),
-      description: t('services.text_three'),
-    },
-    {
-      id: 4,
-      title: t('services.title_one'),
-      description: t('services.text_one'),
-    },
-    {
-      id: 5,
-      title: t('services.title_two'),
-      description: t('services.text_two'),
-    },
-    {
-      id: 6,
-      title: t('services.title_three'),
-      description: t('services.text_three'),
-    },
-  ];
+    }),
+  },
+];
+
 
   const swiperRef = React.useRef<any>(null);
   const handleNext = () => swiperRef.current?.slideNext();

@@ -1,37 +1,44 @@
 {
-  "hero_text": "Stayopia Misafirperverlik Yaklaşımını işinize entegre edin. Modern misafirperverlik trendleriyle konforu artırmanıza ve masrafları azaltmanıza yardımcı olacağız.",
-  "what_are_we_doing_text": "PlusPrograms olarak misafirperverliğe yeni bir yaklaşım geliştirdik. Bizim inancımıza göre işletmenizin misyonu, misafirlere işiniz, şehir ve çevre ile kusursuz bir entegrasyon için tüm araçları sağlamaktır. Misafirlerinizi karşılıklı fayda için Stayopia mobil ürünleriyle yönlendirin.",
-  "what_are_we_doing": "Ne Yapıyoruz?",
-  "learn_more": "Daha Fazla Öğren",
-  "business_that": "Bize <strong>Güvenen İşletmeler</strong>",
-  "video_text": "Her Şey Tek Bir Üründe",
+  "hero_text": "Stayopia Qonaqpərvərlik Yanaşmasını biznesinizə inteqrasiya edin. Müasir qonaqpərvərlik trendləri ilə rahatlığı artırmağa və xərcləri azaltmağa kömək edəcəyik.",
+  "what_are_we_doing_text": "PlusPrograms-da biz Qonaqpərvərlik üçün yeni bir yanaşma inkişaf etdirdik. Biz inanırıq ki, biznesinizin missiyası qonaqlara biznesiniz, şəhəriniz və ətrafınızla problemsiz inteqrasiya üçün bütün vasitələri təqdim etməkdir. Stayopia mobil məhsulları ilə qonaqlarınızı yönləndirin və qarşılıqlı fayda əldə edin.",
+  "what_are_we_doing": "Biz nə edirik?",
+  "learn_more": "Ətraflı öyrən",
+  "business_that": "Bizimlə <strong>Etibar Qazanmış</strong> Bizneslər",
+  "video_text": "Bütün bunlar bir məhsulda birləşib",
+
   "services": {
-    "title_one": "Kainat Hotel, Yevlakh, Azerbaycan",
-    "title_two": "Barda Hotel, Barda, Azerbaycan",
-    "title_three": "Moss Art Hotel, Bakü, Azerbaycan",
-    "text_one": "İşletmemiz Stayopia ile daha fazla satış yapmaya başladı; şaşırtıcı bir şekilde, birçok müşteri bunu otel içinde ve dışında sipariş vermek için kullanıyor. !!! Mekan adı !!!'nda bu teknolojiyi kullanan ilk işletme olduk ve arkadaşlarımıza tavsiye ettik.",
-    "text_two": "İşletmemiz Stayopia benzeri bir teknoloji kullanıyordu ama sadece restoranımız için ve maliyeti daha yüksekti. Stayopia ile özellikle Çin’den gelen yabancı müşterilerle çalışmayı kolaylaştırdık. Çalışanlar da memnun, çünkü iletişim çevrimiçi yönlendirildi. Ek olarak, müşterilerimize !!! Mekan adı !!!'nda neyi ve nasıl denemeleri gerektiğini önererek küçük yerel işletmelere destek olabildik.",
-    "text_three": "!!! Otel adı !!!'nı yıllardır yenileyemiyorduk. Stayopia teknolojisini kurarak müşteri memnuniyeti seviyesinde fark hissettik. Uygun maliyetli online çözüm, otel masraflarını azaltmamıza ve hem çalışanları hem de müşterileri motive etmemize yardımcı oldu. Teşekkürler, Stayopia!"
+    "title_one": "Kainat Hotel, Yevlax, Azərbaycan",
+    "title_two": "Barda Hotel, Bərdə, Azərbaycan",
+    "title_three": "Moss Art Hotel, Bakı, Azərbaycan",
+
+    "text_one": "Biznesimiz Stayopia ilə daha çox satış etməyə başladı və təəccübümüzə görə bir çox müştəri onu otel daxilində və xaricində sifariş vermək üçün istifadə edir. Biz bu texnologiyanı {{title}}-də istifadə edən ilk biznes olduq və dostlarımıza da tövsiyə etdik.",
+
+    "text_two": "Biznesimiz əvvəllər Stayopia kimi texnologiyadan istifadə edirdi, lakin bu yalnız restoranımız üçün idi və qiyməti daha yüksək idi. Stayopia ilə xüsusilə Çindən gələn xarici müştərilərlə daha asan işləməyə başladıq. İşçilər də məmnundurlar, çünki ünsiyyət onlayn mühitə yönləndirildi. Əlavə fayda olaraq, müştərilərimizə {{title}}-də nəyi və necə sınamağı tövsiyə edərək kiçik yerli bizneslərə dəstək ola bildik.",
+
+    "text_three": "Biz {{title}} otelini illərlə yeniləyə bilmirdik. Stayopia texnologiyasını quraşdırdıqdan sonra müştəri məmnuniyyəti səviyyəsində fərqi açıq şəkildə hiss etdik. Bu sərfəli onlayn həll otelin özündə xərclərə qənaət etməyə imkan verdi və həm işçiləri, həm də müştəriləri motivasiya etdi. Təşəkkürlər, Stayopia!"
   },
+
   "about": {
-    "title_one": "Ekibinizi dahil edin ve profilinizi düzenleyin",
-    "title_two": "Müşterilerinizi Stayopia’ya davet edin",
-    "title_three": "Çevredeki işletmeleri entegre edin ve komisyon kazanın",
-    "title_four": "Uluslararası müşterilerinizle rahat iletişim kurun",
-    "title_five": "İşletmenizi kolayca yönetin",
-    "title_six": "Müşterilerinizi daha iyi tanıyın"
+    "title_one": "Komandanızı əlavə edin və profilinizi bəzəyin",
+    "title_two": "Müştərilərinizi Stayopia-ya dəvət edin",
+    "title_three": "Ətrafdakı biznesləri inteqrasiya edin və komissiya qazanın",
+    "title_four": "Beynəlxalq müştərilərinizlə rahat ünsiyyət qurun",
+    "title_five": "Biznesinizi rahat idarə edin",
+    "title_six": "Müştərilərinizi daha yaxşı tanıyın"
   },
+
   "navbar": {
-    "home": "Ana Sayfa",
-    "about": "Hakkımızda",
-    "services": "Hizmetler",
-    "contact": "İletişim"
+    "home": "Əsas Səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "contact": "Bizimlə Əlaqə"
   },
+
   "footer": {
-    "contact": "İletişim",
-    "email": "E-posta",
+    "contact": "Bizimlə Əlaqə",
+    "email": "Email",
     "phone": "Telefon",
-    "all_rights_reserved": "Tüm hakları saklıdır",
-    "consent_preferences": "Onay Tercihleri"
+    "all_rights_reserved": "Bütün hüquqlar qorunur",
+    "consent_preferences": "Razılıq Seçimləri"
   }
 }

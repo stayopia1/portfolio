@@ -5,14 +5,19 @@
   "learn_more": "Aprender Más",
   "business_that": "Negocios que <strong>Confiaron en Nosotros</strong>",
   "video_text": "Todo Está Junto En Un Solo Producto",
+
   "services": {
     "title_one": "Hotel Kainat, Yevlakh, Azerbaiyán",
     "title_two": "Hotel Barda, Barda, Azerbaiyán",
     "title_three": "Hotel Moss Art, Bakú, Azerbaiyán",
-    "text_one": "Nuestro negocio comenzó a vender más con Stayopia; para nuestra sorpresa, muchos clientes lo usan para realizar pedidos dentro y fuera del hotel. Nos convertimos en el primer negocio en usar esta tecnología en !!! Lugar, y lo recomendamos a nuestros amigos.",
-    "text_two": "Mi negocio utilizó la tecnología como Stayopia, pero solo para nuestro restaurante y el precio era más alto. Con Stayopia comenzamos a trabajar más fácilmente con clientes del extranjero, especialmente de China. Los empleados también están felices, ya que el rango de comunicación se redirigió en línea. Como beneficio adicional, pudimos ayudar a pequeños negocios locales recomendando a nuestros clientes qué y cómo probar en !!! Nombre del lugar.",
-    "text_three": "No pudimos renovar el !!! Nombre del hotel !!! durante muchos años. Al instalar la tecnología Stayopia sentimos una diferencia en el nivel de satisfacción del cliente. La solución económica en línea nos permitió ahorrar dinero en el propio hotel y motivó a empleados y clientes. ¡Gracias, Stayopia!"
+
+    "text_one": "Nuestro negocio comenzó a vender más con Stayopia; para nuestra sorpresa, muchos clientes lo usan para realizar pedidos dentro y fuera del hotel. Nos convertimos en el primer negocio en usar esta tecnología en {{title}}, y lo recomendamos a nuestros amigos.",
+
+    "text_two": "Mi negocio utilizó la tecnología como Stayopia, pero solo para nuestro restaurante y el precio era más alto. Con Stayopia comenzamos a trabajar más fácilmente con clientes del extranjero, especialmente de China. Los empleados también están felices, ya que el rango de comunicación se redirigió en línea. Como beneficio adicional, pudimos ayudar a pequeños negocios locales recomendando a nuestros clientes qué y cómo probar en {{title}}.",
+
+    "text_three": "No pudimos renovar {{title}} durante muchos años. Al instalar la tecnología Stayopia sentimos una diferencia en el nivel de satisfacción del cliente. La solución económica en línea nos permitió ahorrar dinero en el propio hotel y motivó a empleados y clientes. ¡Gracias, Stayopia!"
   },
+
   "about": {
     "title_one": "Incorpora a tu equipo y decora tu perfil",
     "title_two": "Invita a tus clientes a Stayopia",
@@ -21,12 +26,14 @@
     "title_five": "Gestiona tu negocio de manera conveniente",
     "title_six": "Conoce mejor a tus clientes"
   },
+
   "navbar": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "services": "Servicios",
     "contact": "Contáctanos"
   },
+
   "footer": {
     "contact": "Contáctanos",
     "email": "Correo electrónico",
